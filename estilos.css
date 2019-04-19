@@ -1,0 +1,338 @@
+.carrousel-item img {
+    width: 100%;
+    height: 800px;
+}
+
+.bd-example,
+.d-block {
+    margin-top: 73px;
+}
+
+.carrusel-ima {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 100%;
+    background-size: cover;
+}
+
+#ima1 {
+    background-image: url(ima/slider/autos.png);
+}
+
+#ima2 {
+    background-image: url(ima/slider/automotriz.png);
+}
+
+#ima3 {
+    background-image: url(ima/slider/camino.png);
+}
+
+.menu-hamburguesa .dropdown-menu {
+    top: 133%;
+    left: -110px;
+    min-width: 17rem;
+}
+
+.formulario {
+    text-align: center;
+    margin-top: 90px;
+}
+
+@media(min-width:576px) {
+    .carrusel-ima {
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 400px;
+        max-height: 100%;
+        background-size: cover;
+    }
+    .menu-hamburguesa .dropdown-menu {
+        top: 133%;
+        left: -50px;
+        min-width: 17rem;
+    }
+}
+
+@media(min-width:768px) {
+    .carrusel-ima {
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 500px;
+        max-height: 100%;
+        background-size: cover;
+    }
+}
+
+.menu-hamburguesa .container {
+    width: auto;
+}
+
+.menu-hamburguesa {
+    width: 100%;
+    position: fixed;
+    z-index: 101;
+    left: 0;
+    top: 0;
+}
+
+.dropdown button {
+    color: white;
+}
+
+.menu-hamburguesa .nav-link {
+    color: white;
+}
+
+footer {
+    background: #212529;
+    text-align: center;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer h6 {
+    color: white;
+}
+
+.titulop h3 {
+    text-align: center;
+    margin: 20px 0px;
+    color: rgba(0, 0, 0, 0.932);
+    text-shadow: 2px 2px rgba(112, 103, 100, 0.842);
+}
+
+.principales {
+    margin: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.principales .producto {
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.397);
+    margin: 0px auto;
+    border-radius: 3%;
+}
+
+.principales h3 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: .05em .05em .05em gray;
+}
+
+.principales img {
+    margin: 10px;
+    width: 250px;
+    height: 150px;
+}
+
+.principales button {
+    margin-left: 20px;
+}
+
+@media(max-width: 910px) {
+    .principales .producto {
+        width: 300px;
+        height: 350px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.397);
+        margin: 20px auto;
+        border-radius: 3%;
+    }
+}
+
+.mapa {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mapa .info {
+    width: 400px;
+    height: 400px;
+    margin: 20px 10px 20px 0px;
+    background: white;
+}
+
+.mapa .imgMap {
+    width: 500px;
+    height: 400px;
+    margin: 20px 0px 20px 20px;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.mapa .info h3 {
+    border-left: 6px solid rgb(14, 139, 177);
+    padding-left: 15px;
+    font-size: 20px;
+    color: gray;
+    margin: 0px 10px 0px 20px;
+}
+
+.mapa .info h1 {
+    padding-left: 15px;
+    color: rgb(20, 18, 18);
+}
+
+@media(max-width:576px) {
+    .mapa .imgMap {
+        width: 100%;
+        height: 200px;
+        margin: 20px 10px 20px 10px;
+    }
+    .mapa iframe {
+        width: 100%;
+    }
+    .mapa .info {
+        width: 400px;
+        height: 400px;
+        margin: 20px 10px 20px 10px;
+    }
+}
+
+
+/*
+@media(min-width:768px){
+    .mapa .imgMap{
+        width:200px;
+        height: 200px;
+    }
+    .mapa iframe{
+        width: 80%;
+        
+    }
+}*/
+
+.contacto {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("ima/ubicacion.jpg");
+}
+
+.contacto .formulario {
+    width: 400px;
+    height: 500px;
+    margin: 20px 10px 20px 0px;
+    background: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    vertical-align: center;
+}
+
+.contacto .imgMap {
+    width: 500px;
+    height: 500px;
+    margin: 20px 0px 20px 20px;
+    border-radius: 85px 0px 0px 85px;
+    background: rgba(87, 78, 78, 0.555);
+}
+
+.contacto h1 {
+    padding-top: 35px;
+    text-align: center;
+    color: white;
+}
+
+.contacto h4 {
+    padding: 0px;
+    text-align: center;
+}
+
+.contacto h6 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.contacto img {
+    display: block;
+    margin: auto;
+}
+
+.formulario input {
+    margin: 10px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.formulario h6 {
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.formulario textarea {
+    margin: 10px;
+    margin-left: 50px;
+    width: 300px;
+}
+
+@media(max-width:576px) {
+    .contacto .imgMap {
+        width: 100%;
+        height: auto;
+        margin: 20px 10px 20px 10px;
+        border-radius: 0px;
+    }
+    .contacto .formulario {
+        width: 400px;
+        height: 450px;
+        margin: 20px 10px 20px 10px;
+        border-radius: 0px;
+    }
+}
+
+
+/*
+@media(min-width:768px){
+    .mapa .imgMap{
+        width:200px;
+        height: 200px;
+    }
+    .mapa iframe{
+        width: 80%;
+        
+    }
+}*/
+
+h3 {
+    text-align: center
+}
+
+.loginSes {
+    width: 300px;
+    margin: 0px auto;
+}
+
+.loginSes input,
+.loginSes h1,
+.loginSes h4,
+.loginSes h3 {
+    text-align: center;
+}
+
+.loginSes .loginbtn {
+    text-align: center;
+}
+
+.loginSes button {
+    border-radius: 70px;
+}
+
+.loginSes input {
+    border-radius: 70px;
+    border: 3px solid gray;
+}
